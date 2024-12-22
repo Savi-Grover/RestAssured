@@ -5,7 +5,7 @@
     <classes>
       <class name="basic_rest.httpRequests">
         <methods>
-          <include name="postUser"/>
+          <include name="updateUser"/>
         </methods>
       </class> <!-- basic_rest.httpRequests -->
     </classes>

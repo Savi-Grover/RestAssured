@@ -22,7 +22,7 @@ import io.restassured.specification.RequestSpecification;
 public class httpRequests {
  
 	int id;
-	//@Test
+	@Test(priority =1 )
 	//use priority to run all testcases together
 	void getUsers() {
 		
@@ -40,7 +40,7 @@ public class httpRequests {
 	
 	
 	@SuppressWarnings("unchecked")
-	@Test
+	@Test(priority =2)
 	void postUser() {
 		
 		//we can use hashmap to store key value and convert that 
@@ -55,6 +55,29 @@ public class httpRequests {
 		
 		//.then().statusCode(201)
 			//.log().all();  - to verify 201 and print response
+	}
+	
+	@Test(priority =3, dependsOnMethods= {"postUser"})
+	void updateUser() {
+		HashMap hm = new HashMap();
+		//change values 
+		hm.put("name", "john");
+		hm.put("job", "teacher");
+		
+		given().contentType("application/json").body(hm)
+	    .when().put("https://reqres.in/api/users/"+id)   //to use id produced by above id
+		
+		.then()
+		.statusCode(200).log().all(); 
+	}
+	
+	@Test(priority =4)
+	void deleteUser() {
+		given()
+		
+		.when().delete("https://reqres.in/api/users/"+id)
+		
+		.then().statusCode(204).log().all();
 	}
 	
 }
