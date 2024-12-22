@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basic_rest.httpRequests">
+      <class name="post.DiffWaysToCreatePOSTRequestBody">
         <methods>
-          <include name="updateUser"/>
+          <include name="testPostUsingHashMap"/>
         </methods>
-      </class> <!-- basic_rest.httpRequests -->
+      </class> <!-- post.DiffWaysToCreatePOSTRequestBody -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
