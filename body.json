@@ -1,0 +1,14 @@
+{  
+  {   name:"arun",
+      location:"Delhi",
+      phone:"21212121",
+      courses:["English","Science"]
+     
+   },
+   {  
+      name:"john",
+      location:"Mumbai",
+      phone:"1212121",
+      courses:["English","Science"]
+   }
+}

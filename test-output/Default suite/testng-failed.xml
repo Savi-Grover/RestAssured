@@ -5,7 +5,7 @@
     <classes>
       <class name="post.DiffWaysToCreatePOSTRequestBody">
         <methods>
-          <include name="testPostUsingHashMap"/>
+          <include name="testPostUsingExternalJSONFile"/>
         </methods>
       </class> <!-- post.DiffWaysToCreatePOSTRequestBody -->
     </classes>
