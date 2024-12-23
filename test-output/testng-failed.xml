@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="params.ExtractHeaders">
+      <class name="responseData.ParseResponseData">
         <methods>
-          <include name="testHeader"/>
+          <include name="ParseJSONResponse"/>
         </methods>
-      </class> <!-- params.ExtractHeaders -->
+      </class> <!-- responseData.ParseResponseData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

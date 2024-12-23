@@ -1,4 +1,4 @@
-package params;
+package paramsANdcookies;
 import org.testng.annotations.Test;
 import  io.restassured.RestAssured;
 import  io.restassured.matcher.ResponseAwareMatcher;

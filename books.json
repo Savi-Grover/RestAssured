@@ -1,0 +1,24 @@
+{
+"books": 
+[
+    { 
+    "author":"James",
+    "category":"Fiction",
+    "price":"150.5",
+    "title":"Sayings of the Centuary"
+    },
+    { 
+    "author":"Evelyn",
+    "category":"Science",
+    "price":"250",
+    "title":"Wonders of the Galaxy"
+    },
+    { 
+    "author":"Herman",
+    "category":"fiction",
+    "price":"75.8",
+    "title":"Mobile Cart"
+    }
+]
+
+}
