@@ -17,9 +17,9 @@ import io.restassured.specification.RequestSpecification;
 
 /*
  * 1. Hashmap - used for small set of data
- * 2. using org.json 
- * 3. POJO classes
- * 4. external json file data
+ * 2. using org.json - library requires a pom dependency of json
+ * 3. POJO classes - getter & setters classes of encapsulated elements; set methods are called to create data
+ * 4. external json file data - json library , file , filereader, jsontokener, jsonobject
  */
 public class DiffWaysToCreatePOSTRequestBody {
 	

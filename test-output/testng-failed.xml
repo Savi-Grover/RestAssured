@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="post.DiffWaysToCreatePOSTRequestBody">
+      <class name="params.ExtractHeaders">
         <methods>
-          <include name="testPostUsingExternalJSONFile"/>
+          <include name="testHeader"/>
         </methods>
-      </class> <!-- post.DiffWaysToCreatePOSTRequestBody -->
+      </class> <!-- params.ExtractHeaders -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
