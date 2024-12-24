@@ -25,12 +25,13 @@ public class DiffWaysToCreatePOSTRequestBody {
 	
 	@SuppressWarnings("rawtypes")
 	//@Test(priority=1)
+	//using HASHMAP
 	void testPostUsingHashMap() {
 		HashMap data = new HashMap();
 		data.put("name", "Scott");
 		data.put("location", "France");
 		data.put("phone", "123456");
-		
+		//string array
 		String courseArr[]= {"C","C++"};
 		data.put("courses", courseArr);  //when data is in form of array, create array first
 		

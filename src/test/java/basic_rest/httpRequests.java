@@ -5,9 +5,7 @@ import  io.restassured.RestAssured;
 import  io.restassured.matcher.ResponseAwareMatcher;
 //import static com.jayway.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-
 import java.util.HashMap;
-
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 import io.restassured.specification.RequestSpecification;
