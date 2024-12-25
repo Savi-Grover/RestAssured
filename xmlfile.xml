@@ -1,0 +1,9 @@
+<catalog name="11-11-11">
+ <book id="11">
+ <author auth="11"><ss>ss</ss></author>
+ <hello>asd</hello>
+ </book>
+ <note id="12">
+ <classmate id="123">mm</classmate>
+ </note>
+ </catalog>
